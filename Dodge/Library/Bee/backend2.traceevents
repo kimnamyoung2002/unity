@@ -1,0 +1,325 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1723185850009483, "dur":9937, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723185850019482, "dur":402, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723185850020056, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/Dodge_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":0, "ts":1723185850020276, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1723185850019903, "dur":3276, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723185850023181, "dur":248435, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723185850271617, "dur":221, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723185850271838, "dur":140, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723185850272122, "dur":1273, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1723185850019969, "dur":3218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723185850023189, "dur":7338, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723185850034597, "dur":632, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1723185850035232, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1723185850035367, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1723185850035459, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1723185850035665, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850035887, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\AI08\\Dodge\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850035982, "dur":172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\AI08\\Dodge\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850036154, "dur":266, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\AI08\\Dodge\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850036421, "dur":356, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\AI08\\Dodge\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850036778, "dur":530, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\AI08\\Dodge\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850037309, "dur":131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\AI08\\Dodge\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850037441, "dur":365, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\AI08\\Dodge\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850037808, "dur":192, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\AI08\\Dodge\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850038001, "dur":189, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850038191, "dur":281, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850038474, "dur":323, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850038798, "dur":195, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850038994, "dur":949, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850039945, "dur":246, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850040192, "dur":1363, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850041578, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerf821ddcc-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1723185850041753, "dur":9591, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.BuildTools.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850051346, "dur":520, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850051867, "dur":11574, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.CSharpSupport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850063442, "dur":517, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.DotNet.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850063960, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.NativeProgramSupport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850064113, "dur":628, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Stevedore.Program.exe" }}
+,{ "pid":12345, "tid":1, "ts":1723185850064742, "dur":170, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TinyProfiler2.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850064913, "dur":9080, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.GNU.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850073995, "dur":8268, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.LLVM.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850082265, "dur":11378, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.VisualStudio.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850093645, "dur":8152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.Xcode.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850101799, "dur":381, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Tools.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850102184, "dur":372, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TundraBackend.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850102557, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.VisualStudioSolution.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850102639, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeBuildProgramCommon.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850102706, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeBuildProgramCommon.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850102773, "dur":139, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeLocalCacheTool.exe" }}
+,{ "pid":12345, "tid":1, "ts":1723185850102913, "dur":12688, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850115603, "dur":171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\NiceIO.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850115775, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850115843, "dur":112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850115956, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\ScriptCompilationBuildProgram.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850116019, "dur":314, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\ScriptCompilationBuildProgram.exe" }}
+,{ "pid":12345, "tid":1, "ts":1723185850116334, "dur":9089, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\SharpYaml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850125425, "dur":5927, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Api.Attributes.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850131353, "dur":10420, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850141775, "dur":6607, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850148384, "dur":8618, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850157004, "dur":8675, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850165681, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Api.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850165801, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.BuildLogic.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850165901, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850165968, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Linker.Api.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850166036, "dur":7619, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Options.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723185850035231, "dur":138425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1723185850173861, "dur":89756, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1723185850270426, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1723185850270425, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/Dodge_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1723185850270546, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1723185850020000, "dur":3198, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723185850023201, "dur":2181, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723185850025383, "dur":5183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723185850030566, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1723185850033806, "dur":1749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1723185850035721, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1723185850036266, "dur":2265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1723185850038638, "dur":187, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723185850038637, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723185850038836, "dur":4324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723185850043279, "dur":10024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723185850053561, "dur":5695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723185850059467, "dur":5875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723185850065442, "dur":5839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723185850071370, "dur":6071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723185850077564, "dur":5975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723185850083651, "dur":2015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1723185850085795, "dur":2713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1723185850088562, "dur":183063, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723185850020052, "dur":3206, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723185850023261, "dur":3272, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723185850026533, "dur":4010, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723185850030563, "dur":1114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":3, "ts":1723185850030544, "dur":1134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1723185850034479, "dur":1769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1723185850036349, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/Dodge_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1723185850036836, "dur":3746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1723185850040680, "dur":344, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723185850040679, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723185850041035, "dur":11923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723185850053060, "dur":5464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723185850058636, "dur":5734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723185850064477, "dur":6131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723185850070765, "dur":6334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723185850077190, "dur":5967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723185850083292, "dur":3869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723185850087343, "dur":184269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723185850019997, "dur":3196, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723185850023195, "dur":2424, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723185850025619, "dur":4943, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723185850030563, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1723185850033908, "dur":2479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1723185850036490, "dur":3407, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723185850036489, "dur":3409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/Dodge_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723185850039912, "dur":13324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723185850053335, "dur":5889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723185850059455, "dur":5913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723185850065465, "dur":5881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723185850071549, "dur":6145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723185850077794, "dur":6172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723185850084517, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1723185850085954, "dur":1845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1723185850087887, "dur":183733, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723185850020025, "dur":3221, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723185850023249, "dur":1678, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723185850024927, "dur":5635, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723185850030573, "dur":1343, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1723185850030562, "dur":1355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1723185850033829, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1723185850035847, "dur":43347, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723185850035845, "dur":43350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723185850079286, "dur":3185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723185850082555, "dur":4239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723185850086897, "dur":184725, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723185850020048, "dur":3204, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723185850023254, "dur":3227, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723185850026481, "dur":4076, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723185850030560, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1723185850034397, "dur":2214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1723185850036755, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723185850036754, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723185850037239, "dur":1902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723185850039261, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723185850039260, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723185850039409, "dur":13464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723185850052982, "dur":5534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723185850058634, "dur":5811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723185850064566, "dur":6008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723185850070722, "dur":6040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723185850076864, "dur":6031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723185850082983, "dur":4040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723185850087219, "dur":184373, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723185850020079, "dur":3186, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723185850023267, "dur":3273, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723185850026540, "dur":3996, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723185850030539, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1723185850032930, "dur":2411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1723185850035438, "dur":570, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1723185850035436, "dur":573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1723185850036394, "dur":1884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1723185850038370, "dur":653, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723185850038368, "dur":655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723185850039048, "dur":4351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723185850043524, "dur":9867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723185850053638, "dur":5826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723185850059607, "dur":5821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723185850065565, "dur":6001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723185850071799, "dur":6198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723185850078087, "dur":5803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723185850084151, "dur":2323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1723185850086562, "dur":185052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723185850020101, "dur":3173, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723185850023277, "dur":3230, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723185850026507, "dur":4033, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723185850030543, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1723185850033159, "dur":3329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1723185850036623, "dur":2796, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723185850036622, "dur":2798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723185850039430, "dur":13691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723185850053218, "dur":5620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723185850058930, "dur":5531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723185850064581, "dur":6037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723185850070776, "dur":6268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723185850077137, "dur":5919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723185850083143, "dur":3901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723185850087289, "dur":184345, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1723185850020127, "dur":3155, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1723185850023284, "dur":293, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1723185850023577, "dur":6968, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1723185850030548, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1723185850034493, "dur":2109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1723185850036745, "dur":195, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1723185850036744, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1723185850037280, "dur":1940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1723185850039325, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1723185850039324, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1723185850039467, "dur":13724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1723185850053307, "dur":5826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1723185850059338, "dur":5610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1723185850065030, "dur":5830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1723185850071042, "dur":6242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1723185850077368, "dur":5868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1723185850083355, "dur":3706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1723185850087313, "dur":184316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1723185850020154, "dur":3137, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1723185850023291, "dur":7243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1723185850030555, "dur":1137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1723185850030543, "dur":1150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1723185850033745, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1723185850035407, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1723185850036042, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1723185850038267, "dur":345, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1723185850038266, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1723185850038626, "dur":4056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1723185850042816, "dur":10479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1723185850053565, "dur":5703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1723185850059443, "dur":5697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1723185850065305, "dur":5903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1723185850071321, "dur":6050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1723185850077481, "dur":6012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1723185850083605, "dur":2221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1723185850085926, "dur":1836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1723185850087873, "dur":183750, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1723185850020181, "dur":3119, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1723185850023301, "dur":7257, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1723185850030559, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1723185850034439, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1723185850036222, "dur":912, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":11, "ts":1723185850036221, "dur":913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/Dodge.exe" }}
+,{ "pid":12345, "tid":11, "ts":1723185850037146, "dur":1680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge.exe" }}
+,{ "pid":12345, "tid":11, "ts":1723185850038906, "dur":231, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723185850038905, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723185850039149, "dur":4302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723185850043574, "dur":9751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723185850053452, "dur":5684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723185850059300, "dur":5460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723185850064882, "dur":5971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723185850071006, "dur":6159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723185850077252, "dur":5876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723185850083217, "dur":3833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1723185850087295, "dur":184346, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1723185850020213, "dur":3092, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1723185850023305, "dur":7243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1723185850030578, "dur":986, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1723185850030556, "dur":1009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1723185850034490, "dur":1875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1723185850036499, "dur":1973, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1723185850036498, "dur":1975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1723185850038622, "dur":4628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1723185850043401, "dur":9981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1723185850053635, "dur":5798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1723185850059585, "dur":5875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1723185850065572, "dur":5987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1723185850071790, "dur":6061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1723185850077944, "dur":5893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1723185850084025, "dur":2338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1723185850086446, "dur":185166, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1723185850020227, "dur":3085, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1723185850023313, "dur":7247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1723185850030572, "dur":952, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":13, "ts":1723185850030562, "dur":963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1723185850032990, "dur":2661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1723185850035772, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1723185850036682, "dur":1689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1723185850038472, "dur":248, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1723185850038470, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1723185850038733, "dur":4338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1723185850043205, "dur":10081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1723185850053524, "dur":5640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":13, "ts":1723185850059367, "dur":5637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1723185850065122, "dur":5882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1723185850071107, "dur":6241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1723185850077436, "dur":5921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1723185850083438, "dur":123591, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":13, "ts":1723185850083437, "dur":123593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":13, "ts":1723185850207059, "dur":8115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":13, "ts":1723185850215239, "dur":56376, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1723185850020251, "dur":3069, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1723185850023320, "dur":7241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1723185850030562, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1723185850033467, "dur":2245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1723185850035826, "dur":17436, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":14, "ts":1723185850035824, "dur":17439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":14, "ts":1723185850053590, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":14, "ts":1723185850055132, "dur":5499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1723185850060737, "dur":5596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1723185850066413, "dur":5907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1723185850072432, "dur":6022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1723185850078585, "dur":5706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1723185850084417, "dur":2223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/level0" }}
+,{ "pid":12345, "tid":14, "ts":1723185850086757, "dur":184853, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1723185850020269, "dur":3054, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1723185850023324, "dur":7209, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1723185850030552, "dur":25490, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1723185850030539, "dur":25505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1723185850056055, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1723185850057589, "dur":5752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1723185850063428, "dur":5999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1723185850069551, "dur":6273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1723185850075914, "dur":6040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1723185850082075, "dur":4640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1723185850086807, "dur":184817, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1723185850020319, "dur":3009, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1723185850023328, "dur":7204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1723185850031926, "dur":442, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":16, "ts":1723185850032370, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/Dodge_Data/app.info" }}
+,{ "pid":12345, "tid":16, "ts":1723185850032694, "dur":2469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/app.info" }}
+,{ "pid":12345, "tid":16, "ts":1723185850035166, "dur":500, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":16, "ts":1723185850035165, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1723185850036214, "dur":1906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1723185850038247, "dur":273, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":16, "ts":1723185850038245, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":16, "ts":1723185850038641, "dur":4557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":16, "ts":1723185850043381, "dur":9966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1723185850053626, "dur":5818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1723185850059611, "dur":6077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1723185850065785, "dur":6017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1723185850071924, "dur":6193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1723185850078241, "dur":5795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1723185850084182, "dur":2444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AI08/dodge_game/Dodge_Data/level0.resS" }}
+,{ "pid":12345, "tid":16, "ts":1723185850086753, "dur":184866, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723185850275431, "dur":854, "ph":"X", "name": "ProfilerWriteOutput" }
+,
