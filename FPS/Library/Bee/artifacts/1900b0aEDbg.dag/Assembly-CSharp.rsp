@@ -361,6 +361,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/02.Scipts/Barrel.cs"
 "Assets/02.Scipts/BulletCtrl.cs"
+"Assets/02.Scipts/EnemyAI.cs"
 "Assets/02.Scipts/FireCtrl.cs"
 "Assets/02.Scipts/Followcam.cs"
 "Assets/02.Scipts/MoveAgent.cs"
