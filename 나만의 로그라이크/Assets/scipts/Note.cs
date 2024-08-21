@@ -7,16 +7,16 @@ public class Note : MonoBehaviour
 {
 
     public float NoteSpeed = 400;
-    public Image noteImage;
+    public GameObject noteObject;
     // Start is called before the first frame update
     void Start()
     {
-        noteImage = GetComponent<Image>();
+        noteObject = GetComponent<GameObject>();
     }
 
     public void HideNote()
     {
-        noteImage.enabled = false;
+
     }
 
     void Update()

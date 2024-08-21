@@ -26,7 +26,7 @@ public class MoveAgent : MonoBehaviour
             if (_patrolling)
             {
                 agent.speed = patrolSpeed;
-
+                MoveWayPoint();
             }
         }
     }
@@ -98,5 +98,10 @@ public class MoveAgent : MonoBehaviour
 
             MoveWayPoint();
         }
+    }
+
+    public float Speed
+    {
+        get { return agent.velocity.magnitude; }
     }
 }
