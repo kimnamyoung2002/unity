@@ -14,10 +14,6 @@ public class Note : MonoBehaviour
         noteObject = GetComponent<GameObject>();
     }
 
-    public void HideNote()
-    {
-
-    }
 
     void Update()
     {

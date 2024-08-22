@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -13,9 +14,10 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey("left") || Input.GetKey("right"))
+        if (Input.GetKeyDown("left") || Input.GetKeyDown("right"))
         {
             theTimingManager.CheckTiming(); // 판정 체크
+
         }
     }
 }

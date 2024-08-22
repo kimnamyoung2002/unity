@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class TimingManager : MonoBehaviour
@@ -23,7 +24,6 @@ public class TimingManager : MonoBehaviour
         }
     }
 
-
     public void CheckTiming()
     {
         for (int i = 0; i < boxNoteList.Count; i++)
@@ -35,7 +35,7 @@ public class TimingManager : MonoBehaviour
             {
                 if (timingBoxs[j].x <= t_notePosX && t_notePosX <= timingBoxs[j].y)
                 {
-                    boxNoteList[i].GetComponent<Note>().HideNote();
+                    boxNoteList[i].GetComponent<Note>();
                     boxNoteList.RemoveAt(i);
 
                     switch (j)

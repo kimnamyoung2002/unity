@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoteSpeed: 15
-  noteImage: {fileID: 8192507379358101755}
+  noteObject: {fileID: 8192507379358101755}
 --- !u!70 &5389670890631456794
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
