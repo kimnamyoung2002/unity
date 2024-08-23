@@ -354,6 +354,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/scipts/CenterFlame.cs"
+"Assets/scipts/EffectManager.cs"
 "Assets/scipts/Note.cs"
 "Assets/scipts/NoteManager.cs"
 "Assets/scipts/PlayerContorller.cs"

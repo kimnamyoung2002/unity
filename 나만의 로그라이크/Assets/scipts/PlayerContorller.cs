@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown("left") || Input.GetKeyDown("right"))
         {
             theTimingManager.CheckTiming(); // 판정 체크
-
         }
     }
+
 }

@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class Note : MonoBehaviour
 {
-
     public float NoteSpeed = 400;
     public GameObject noteObject;
     // Start is called before the first frame update
@@ -14,6 +13,10 @@ public class Note : MonoBehaviour
         noteObject = GetComponent<GameObject>();
     }
 
+    public void HideNote()
+    {
+        noteObject.SetActive(false);
+    }
 
     void Update()
     {

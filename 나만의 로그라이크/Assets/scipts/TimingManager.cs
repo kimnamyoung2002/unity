@@ -6,6 +6,7 @@ using UnityEngine;
 public class TimingManager : MonoBehaviour
 {
     public List<GameObject> boxNoteList = new List<GameObject>();
+    public GameObject note;
 
     [SerializeField] Transform center = null; // 판정 범위의 중심
     [SerializeField] Transform[] timingRect = null; // 다양한 판정 범위
@@ -35,8 +36,7 @@ public class TimingManager : MonoBehaviour
             {
                 if (timingBoxs[j].x <= t_notePosX && t_notePosX <= timingBoxs[j].y)
                 {
-                    boxNoteList[i].GetComponent<Note>();
-                    boxNoteList.RemoveAt(i);
+                    boxNoteList[i].SetActive(false);
 
                     switch (j)
                     {
@@ -57,7 +57,6 @@ public class TimingManager : MonoBehaviour
                 }
             }
         }
-
         Debug.Log("Miss");
     }
 }
