@@ -19,5 +19,4 @@ public class PlayerController : MonoBehaviour
             theTimingManager.CheckTiming(); // 판정 체크
         }
     }
-
 }
