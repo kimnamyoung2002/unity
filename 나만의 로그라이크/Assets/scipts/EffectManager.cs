@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class EffectManager : MonoBehaviour
 {
-    public Animator NoteHitEffect;
+    [SerializeField] Animator NoteHitEffect;
     public void NoteEffcet()
     {
         NoteHitEffect.SetTrigger("Hit");
