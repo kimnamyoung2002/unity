@@ -12,7 +12,7 @@ public class TimingManager : MonoBehaviour
     [SerializeField] Transform[] timingRect = null; // 다양한 판정 범위
     Vector2[] timingBoxs = null; // 판정 범위 최소값 x, 최대값 y
 
-    public EffectManager effectmanager;
+    EffectManager effectmanager;
 
     void Start()
     {
@@ -42,6 +42,7 @@ public class TimingManager : MonoBehaviour
                 {
                     boxNoteList[i].SetActive(false);
                     effectmanager.NoteEffcet();
+
                     switch (j)
                     {
                         case 0:

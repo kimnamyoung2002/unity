@@ -1,15 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EffectManager : MonoBehaviour
 {
-    [SerializeField] Animator NoteHitEffect = null;
-
-    string Hit = "Hit";
-
+    public Animator NoteHitEffect;
     public void NoteEffcet()
     {
-        NoteHitEffect.SetTrigger(Hit);
+        NoteHitEffect.SetTrigger("Hit");
     }
 }

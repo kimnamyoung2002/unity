@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 16
+  controlID: 127
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 17
+  controlID: 25
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -316,9 +316,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3e5a0000
-      m_LastClickedID: 23102
-      m_ExpandedIDs: 30fbffff265a0000
+      m_SelectedIDs: 841a0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 30fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -434,7 +434,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/PQAssets/Query-Chan-SD/Models/SD_QUERY_01/Models
+    - Assets/scrips
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -442,16 +442,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/PQAssets/Query-Chan-SD/Models/SD_QUERY_01/Models
+  - Assets/scrips
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\AI08\Desktop\unity\Dodge
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3c610000
-    m_LastClickedID: 24892
-    m_ExpandedIDs: 00000000c05c0000c25c0000c45c0000c65c0000d65c00009e600000be60000000ca9a3b
+    m_SelectedIDs: e85c0000
+    m_LastClickedID: 23784
+    m_ExpandedIDs: 00000000cc5c0000ce5c0000d05c0000d25c0000e25c0000ec5c0000ee5c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -479,7 +479,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c05c0000c25c0000c45c0000c65c0000
+    m_ExpandedIDs: 00000000cc5c0000ce5c0000d05c0000d25c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -531,7 +531,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 2564}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 242
@@ -963,9 +963,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.2249297, y: 0.82434136, z: 1.4242154}
+    m_Target: {x: -0.37108716, y: 1.1569891, z: 1.14737}
     speed: 2
-    m_Value: {x: -1.2249297, y: 0.82434136, z: 1.4242154}
+    m_Value: {x: -0.37108716, y: 1.1569891, z: 1.14737}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1013,11 +1013,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.0097110355, y: 0.9575341, z: -0.28648832, w: -0.032340847}
     speed: 2
-    m_Value: {x: -0.010569994, y: 0.9573909, z: -0.2864454, w: -0.035211764}
+    m_Value: {x: -0.0097110355, y: 0.95753413, z: -0.28648835, w: -0.032340847}
   m_Size:
-    m_Target: 5.6651
+    m_Target: 5.4101706
     speed: 2
-    m_Value: 5.4211483
+    m_Value: 5.4101706
   m_Ortho:
     m_Target: 1
     speed: 2
