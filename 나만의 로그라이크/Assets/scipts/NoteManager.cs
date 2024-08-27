@@ -11,6 +11,7 @@ public class NoteManager : MonoBehaviour
     [SerializeField] GameObject goNote = null; // 생성할 노트 프리팹
 
     TimingManager theTimingManager;
+    EffectManager effectManager;
 
     void Start()
     {

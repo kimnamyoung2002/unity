@@ -46,22 +46,22 @@ public class TimingManager : MonoBehaviour
                     switch (j)
                     {
                         case 0:
-                            Debug.Log("Perfect");
+                            effectmanager.Perfect();
                             break;
                         case 1:
-                            Debug.Log("Cool");
+                            effectmanager.Cool();
                             break;
                         case 2:
-                            Debug.Log("Good");
+                            effectmanager.Good();
                             break;
                         case 3:
-                            Debug.Log("Bad");
+                            effectmanager.Bad();
                             break;
                     }
                     return;
                 }
             }
         }
-        Debug.Log("Miss");
+        effectmanager.Miss();
     }
 }
