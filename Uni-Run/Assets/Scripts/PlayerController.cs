@@ -35,6 +35,10 @@ public class PlayerController : MonoBehaviour {
 
             playerAudio.Play();
         }
+        else if (Input.GetMouseButtonUp(0) && playerRigidbody.velocity.y > 0)
+        {
+            playerRigidbody.velocity = playerRigidbody.velocity * 0.5f;
+        }
 
         animator.SetBool("Grounded", isGrounded);
     }

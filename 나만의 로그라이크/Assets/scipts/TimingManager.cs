@@ -13,10 +13,12 @@ public class TimingManager : MonoBehaviour
     Vector2[] timingBoxs = null; // 판정 범위 최소값 x, 최대값 y
 
     EffectManager effectmanager;
+    MartialHero martialhero;
 
     void Start()
     {
         effectmanager = GetComponent<EffectManager>();
+        martialhero = FindAnyObjectByType<MartialHero>();
 
         timingBoxs = new Vector2[timingRect.Length];
 
@@ -47,6 +49,11 @@ public class TimingManager : MonoBehaviour
                     {
                         case 0:
                             effectmanager.Perfect();
+                            martialhero.martialHeroattack();
+                            if (Input.GetKeyDown("up"))
+                            {
+                                martialhero.martialHeroback();
+                            }
                             break;
                         case 1:
                             effectmanager.Cool();

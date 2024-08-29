@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+
     TimingManager theTimingManager;
 
     void Start()
@@ -14,7 +15,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown("left") || Input.GetKeyDown("right") || Input.GetKeyDown("q") || Input.GetKeyDown("w") || Input.GetKeyDown("e") || Input.GetKeyDown("r") || Input.GetKeyDown("up"))
+        if (Input.GetKeyDown("q") || Input.GetKeyDown("w") || Input.GetKeyDown("e") || Input.GetKeyDown("r") || Input.GetKeyDown("up"))
         {
             theTimingManager.CheckTiming(); // 판정 체크
         }

@@ -2,58 +2,55 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SocialPlatforms;
 using static UnityEngine.GraphicsBuffer;
 
 public class MartialHero : MonoBehaviour
 {
+    public float movePower = 1f;
 
-    public float jumpForce = 200f; // 점프 힘
-    private int jumpCount = 0; // 누적 점프 횟수
-    public float moveSpeed;
-
-    private bool isMove = false; // 바닥에 닿았는지 나타냄
+    public int maxHp;
+    public int nowHp;
+    public int atkDmg;
+    public bool attacked = false;
+    public Image nowHpbar;
 
     public Animator Martialanimator; // 사용할 애니메이터 컴포넌트
-    public Rigidbody2D playerRigidbody;
+    public Rigidbody2D rigid;
 
     // Start is called before the first frame update
     void Start()
     {
+        maxHp = 100;
+        nowHp = 100;
+        atkDmg = 10;
+
         Martialanimator = GetComponent<Animator>();
-        playerRigidbody = GetComponent<Rigidbody2D>();
+        rigid = GetComponent<Rigidbody2D>();
     }
 
-
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        martialHeroMove();
+        martialHeromove();
+        nowHpbar.fillAmount = (float)nowHp / (float)maxHp;
+    }
 
-        if (Input.GetKeyDown("q") && isMove)
+    public void martialHeroattack()
+    {
+        if (Input.GetKeyDown("q"))
         {
             Martialanimator.SetTrigger("attack");
         }
 
-        if (Input.GetKeyDown("w") && isMove)
+        if (Input.GetKeyDown("w"))
         {
             Martialanimator.SetTrigger("attack2");
         }
-
     }
 
-    public void martialHeroMove()
+    public void martialHeroback()
     {
-        if ((Input.GetKeyDown("left") && jumpCount < 1.0f) || (Input.GetKeyDown("right") && jumpCount < 1.0f))
-        {
-            jumpCount++;
-
-            playerRigidbody.velocity = Vector2.zero;
-
-            float horizontalForce = Input.GetAxis("Horizontal") * moveSpeed;
-
-            playerRigidbody.AddForce(new Vector2(horizontalForce, jumpForce));
-        }
         if (Input.GetKeyDown("up"))
         {
             if (transform.localEulerAngles.y == 180)
@@ -66,24 +63,29 @@ public class MartialHero : MonoBehaviour
                 transform.localEulerAngles = new Vector3(0, 180, 0);
             }
         }
-
-        Martialanimator.SetBool("Move", isMove);
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void martialHeromove()
     {
-        // 바닥에 닿았음을 감지하는 처리
-        if (collision.contacts[0].normal.y > 0.7f)
+        Vector3 moveVelocity = Vector3.zero;
+
+        if (Input.GetAxisRaw("Horizontal") == 0)
         {
-            isMove = true;
-            jumpCount = 0;
+            Martialanimator.SetBool("Move", false);
         }
-    }
 
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        // 바닥에서 벗어났음을 감지하는 처리
-        isMove = false;
-    }
+        else if (Input.GetAxisRaw("Horizontal") < 0)
+        {
+            moveVelocity = Vector3.left;
+            Martialanimator.SetBool("Move", true);
+        }
 
+        else if (Input.GetAxisRaw("Horizontal") > 0)
+        {
+            moveVelocity = Vector3.right;
+            Martialanimator.SetBool("Move", true);
+        }
+
+        transform.position += moveVelocity * movePower * Time.deltaTime;
+    }
 }
+
